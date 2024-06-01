@@ -1,0 +1,49 @@
+name: artbox
+description: A new Flutter project.
+
+# Prevent the package from being accidentally published to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.1.0
+  http: ^0.13.3
+  path_provider: ^2.0.5
+  image_picker: ^0.8.4+7
+  bloc:
+  flutter_bloc:
+  dio:
+  meta:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0 # Include the flutter_lints package
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/login.jpg
+    - assets/images/homepage.jpg
+    - assets/images/signup.jpg
+    - assets/images/apple.png
+    - assets/images/google.png
+    - assets/images/Go_button.png
+    - assets/images/prompt.jpg
+    - assets/images/file.png
+    - assets/images/member.jpg
+    - assets/fonts/Poppins-Regular.ttf
+    - assets/fonts/Poppins-Italic.ttf
+    - assets/images/view.png
+    - assets/images/arm.jpg
+    - assets/images/back.jpg
+    - assets/images/chest.jpg
+    - assets/images/leg.jpg
